@@ -13,27 +13,31 @@ personnel(james).
 personnel(scott).
 personnel(betty).
 
+participant(a).
+participant(b).
+participant(c).
+participant(d).
+
 role(investigator).
 role(primary_investigator).
 role(primary_investigator,investigator).
+role(charles,investigator).
+role(ororo,investigator).
+role(jean,primary_investigator).
 
 role(research_staff).
 role(clinical_staff).
 role(data_manager).
 role(clinical_staff,research_staff).
 role(data_manager,research_staff).
-
-role(pharmasist).
-
-role(charles,investigator).
-role(ororo,investigator).
-role(jean,primary_investigator).
 role(anna,clinical_staff).
 role(kitty,research_staff).
 role(hank,data_manager).
 role(james,clinical_staff).
-role(scott,pharmasist).
-role(betty,pharmasist).
+
+role(pharmacist).
+role(scott,pharmacist).
+role(betty,pharmacist).
 
 visit(info).
 visit(screening).
